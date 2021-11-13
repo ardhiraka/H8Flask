@@ -13,7 +13,7 @@ app = connex_app.app
 
 # Configure the SQLAlchemy part of the app instance
 app.config['SQLALCHEMY_ECHO'] = True
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://ibeemjxxxtyggp:a03abcf8c9a6c42f83da76821d66055e3281d29478d65e4312b253d43bdfb0f2@ec2-52-86-123-180.compute-1.amazonaws.com:5432/d542und4mt9u38'
+app.config['SQLALCHEMY_DATABASE_URI'] = ''
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Create the SQLAlchemy db instance
